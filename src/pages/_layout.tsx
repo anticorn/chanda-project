@@ -3,6 +3,7 @@ import '../styles.css';
 import type { ReactNode } from 'react';
 
 import { Header } from '../components/header';
+import Gradient from '../components/gradient';
 import { Footer } from '../components/footer';
 
 type RootLayoutProps = { children: ReactNode };
@@ -16,7 +17,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       <link rel="icon" type="image/png" href={data.icon} />
       <Header />
       <main className="m-6 flex items-center *:min-h-64 *:min-w-64 lg:m-0 lg:min-h-svh lg:justify-center">
+      <Gradient />
         {children}
+        
+
       </main>
       <Footer />
     </div>

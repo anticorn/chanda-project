@@ -1,0 +1,13 @@
+Create a component that outputs a square with a 
+gradient background and rounded corners in a separate file. 
+Import it into your main page file and use as component within 
+the page.
+
+
+Search tailwind website for 
+"height", "width", "gradient" classes to use in className.
+
+
+Task. Analyze why some of your components are imported as import 
+{ Name } and others as import Name. 
+See if you can make them all imported with curly braces.
